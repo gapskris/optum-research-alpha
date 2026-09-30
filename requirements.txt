@@ -1,0 +1,10 @@
+crewai
+langchain-groq
+langchain-community
+duckduckgo-search
+python-dotenv
+crewai-tools
+ddgs
+fastapi
+uvicorn
+sse-starlette

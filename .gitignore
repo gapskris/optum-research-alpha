@@ -1,0 +1,42 @@
+# Environment & Secrets — NEVER commit these
+.env
+.env12
+.env.*
+*.key
+*.pem
+
+# Virtual environments — NEVER commit these (huge folders with thousands of files)
+research_agent/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Reports (generated output — too large for version control)
+reports/
+
+# Scratch & temp files
+scratch/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
